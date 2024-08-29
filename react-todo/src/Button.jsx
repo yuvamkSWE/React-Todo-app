@@ -5,7 +5,7 @@ function Button(props){
     return(
         <>
             <div className='btn-container'>
-                <button className='btn' >{props.content}</button>
+                <button className='btn' onClick={props.onClick}>{props.content}</button>
             </div>
         </>
     );
